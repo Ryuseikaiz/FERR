@@ -30,12 +30,12 @@ function App() {
       <Header />
       <Router>
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/trending" element={<Trending />} />
-          <Route path="/trendingCRUD" element={<TrendingCRUD />} />
-          <Route path="/singlepage/:id" element={<Trailer />} />
+          <Route path="/FERR" element={<HomePage />} />
+          <Route path="/FERR/trending" element={<Trending />} />
+          <Route path="/FERR/trendingCRUD" element={<TrendingCRUD />} />
+          <Route path="/FERR/singlepage/:id" element={<Trailer />} />
           {/* New route for LatestMoviesCarousel */}
-          <Route path="/latest-movies" element={<LatestMoviesCarousel />} />
+          <Route path="/FERR/latest-movies" element={<LatestMoviesCarousel />} />
         </Routes>
       </Router>
       <Footer />
