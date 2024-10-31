@@ -9,8 +9,8 @@
       "starring": "Karen Gilchrist, James Earl Jones",
       "genres": "Action",
       "tags": "Action, Adventures, Horror",
-      "cover": "../images/home1.jpg",
-      "video": "../video/video1.mp4",
+      "cover": "../FERR/images/home1.jpg",
+      "video": "../FERR/video/video1.mp4",
       "date": "20-Jan-1997"
     },
     {
@@ -22,8 +22,8 @@
       "starring": "Brenda Chapman, Jeff Nathanson",
       "genres": "Adventures",
       "tags": "Adventures,Animation,Family",
-      "cover": "../images/home2.jpg",
-      "video": "../video/video2.mp4",
+      "cover": "../FERR/images/home2.jpg",
+      "video": "../FERR/video/video2.mp4",
       "date": "10-JUL-2021"
     },
     {
@@ -35,8 +35,8 @@
       "starring": "James Chinlund, Jeff Nathanson",
       "genres": "Adventures",
       "tags": "Adventures,Action",
-      "cover": "../images/home3.jpg",
-      "video": "../video/video3.mp4",
+      "cover": "../FERR/images/home3.jpg",
+      "video": "../FERR/video/video3.mp4",
       "date": "20-FEB-2010"
     },
     {
@@ -48,39 +48,39 @@
       "starring": "Karen Gilchrist, James Earl Jones",
       "genres": "Action",
       "tags": "Action, Adventures, Horror",
-      "cover": "../images/home4.jpg",
-      "video": "../video/video4.mp4",
+      "cover": "../FERR/images/home4.jpg",
+      "video": "../FERR/video/video4.mp4",
       "date": "12-Aug-2015"
     }
   ],
   "upcome": [
     {
       "id": "1",
-      "cover": "../images/upcome/u1.jpg",
+      "cover": "../FERR/images/upcome/u1.jpg",
       "name": "My office Boss",
       "time": "2hr : 38mins"
     },
     {
       "id": "2",
-      "cover": "../images/upcome/u2.jpg",
+      "cover": "../FERR/images/upcome/u2.jpg",
       "name": "Shadowe",
       "time": "2hr : 38mins"
     },
     {
       "id": "3",
-      "cover": "../images/upcome/u3.jpg",
+      "cover": "../FERR/images/upcome/u3.jpg",
       "name": "Another Danger",
       "time": "2hr : 38mins"
     },
     {
       "id": "4",
-      "cover": "../images/upcome/u4.jpg",
+      "cover": "../FERR/images/upcome/u4.jpg",
       "name": "One Man Army",
       "time": "2hr : 38mins"
     },
     {
       "id": "5",
-      "cover": "../images/upcome/u5.jpg",
+      "cover": "../FERR/images/upcome/u5.jpg",
       "name": "Jumbo Queen",
       "time": "2hr : 38mins"
     }
@@ -88,31 +88,31 @@
   "latest": [
     {
       "id": "1",
-      "cover": "../images/upcome/u6.png",
+      "cover": "../FERR/images/upcome/u6.png",
       "name": "King of Jungle",
       "time": "2hr : 38mins"
     },
     {
       "id": "2",
-      "cover": "../images/upcome/u7.jpg",
+      "cover": "../FERR/images/upcome/u7.jpg",
       "name": "The illusion",
       "time": "2hr : 38mins"
     },
     {
       "id": "3",
-      "cover": "../images/upcome/u1.jpg",
+      "cover": "../FERR/images/upcome/u1.jpg",
       "name": "Latest Movie",
       "time": "2hr : 38mins"
     },
     {
       "id": "4",
-      "cover": "../images/upcome/u5.jpg",
+      "cover": "../FERR/images/upcome/u5.jpg",
       "name": "Latest two",
       "time": "2hr : 38mins"
     },
     {
       "id": "5",
-      "cover": "../images/upcome/u4.jpg",
+      "cover": "../FERR/images/upcome/u4.jpg",
       "name": "Latest Three",
       "time": "2hr : 38mins"
     }
@@ -127,7 +127,7 @@
       "starring": "Karen Gilchrist, James Earl Jones",
       "genres": "Action",
       "tags": "Action, Adventures, Horror",
-      "cover": "../images/img/slide1.png",
+      "cover": "../FERR/images/img/slide1.png",
       "date": "20-Jan-1997"
     },
     {
@@ -139,7 +139,7 @@
       "starring": "Brenda Chapman, Jeff Nathanson",
       "genres": "Adventures",
       "tags": "Adventures,Animation,Family",
-      "cover": "../images/img/slide2.jpg",
+      "cover": "../FERR/images/img/slide2.jpg",
       "date": "10-JUL-2021"
     },
     {
@@ -151,38 +151,38 @@
       "starring": "James Chinlund, Jeff Nathanson",
       "genres": "Adventures",
       "tags": "Adventures,Action",
-      "cover": "../images/img/slide3.jpg",
+      "cover": "../FERR/images/img/slide3.jpg",
       "date": "20-FEB-2010"
     }
   ],
   "recommended": [
     {
       "id": "4",
-      "cover": "../images/rec/rec1.jpg",
+      "cover": "../FERR/images/rec/rec1.jpg",
       "name": "One Man Army",
       "time": "2hr : 38mins"
     },
     {
       "id": "5",
-      "cover": "../images/rec/rec2.jpg",
+      "cover": "../FERR/images/rec/rec2.jpg",
       "name": "Jumbo Queen",
       "time": "2hr : 38mins"
     },
     {
       "id": "1",
-      "cover": "../images/rec/rec3.jpg",
+      "cover": "../FERR/images/rec/rec3.jpg",
       "name": "My office Boss",
       "time": "2hr : 38mins"
     },
     {
       "id": "2",
-      "cover": "../images/rec/rec4.jpg",
+      "cover": "../FERR/images/rec/rec4.jpg",
       "name": "Shadowe",
       "time": "2hr : 38mins"
     },
     {
       "id": "3",
-      "cover": "../images/upcome/u3.jpg",
+      "cover": "../FERR/images/upcome/u3.jpg",
       "name": "Another Danger",
       "time": "2hr : 38mins"
     }
