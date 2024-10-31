@@ -1,7 +1,7 @@
 // trendingServices.js
 import axios from "axios";
 
-const baseUrl = 'https://my-json-server.typicode.com/nomsociuu/FERR/trending';
+const baseUrl = 'https://my-json-server.typicode.com/ryuseikaiz/FERR/trending';
 
 export const fetchTrending = () => async (dispatch) => {
   try {

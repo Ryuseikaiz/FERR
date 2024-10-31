@@ -7,7 +7,7 @@ export const FETCH_LATEST_FAILURE = 'FETCH_LATEST_FAILURE';
 export const fetchLatestMovies = () => async (dispatch) => {
   dispatch({ type: FETCH_LATEST_REQUEST });
   try {
-    const response = await axios.get('https://my-json-server.typicode.com/nomsociuu/FERR/latest');
+    const response = await axios.get('https://my-json-server.typicode.com/ryuseikaiz/FERR/latest');
     console.log("Fetched data:", response.data); // Log to check fetched data
     dispatch({ type: FETCH_LATEST_SUCCESS, payload: response.data });
   } catch (error) {

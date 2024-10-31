@@ -10,7 +10,7 @@ const Trailer = () => {
 
   useEffect(() => {
     const fetchItem = async () => {
-      const response = await fetch(`https://my-json-server.typicode.com/nomsociuu/FERR/homeData/${id}`);
+      const response = await fetch(`https://my-json-server.typicode.com/ryuseikaiz/FERR/homeData/${id}`);
       if (response.ok) {
         const data = await response.json();
         setItem(data);
@@ -20,7 +20,7 @@ const Trailer = () => {
     };
 
     const fetchRecommended = async () => {
-      const response = await fetch(`https://my-json-server.typicode.com/nomsociuu/FERR/recommended`);
+      const response = await fetch(`https://my-json-server.typicode.com/ryuseikaiz/FERR/recommended`);
       if (response.ok) {
         const data = await response.json();
         setRec(data);
