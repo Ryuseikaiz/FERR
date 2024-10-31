@@ -32,7 +32,7 @@ function App() {
         <Routes>
           <Route path="/FERR" element={<HomePage />} />
           <Route path="/FERR/trending" element={<Trending />} />
-          <Route path="/FERR/trendingCRUD" element={<TrendingCRUD />} />
+          <Route path="/trendingCRUD" element={<TrendingCRUD />} />
           <Route path="/singlepage/:id" element={<Trailer />} />
           {/* New route for LatestMoviesCarousel */}
           <Route path="/FERR/latest-movies" element={<LatestMoviesCarousel />} />

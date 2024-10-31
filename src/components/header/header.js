@@ -29,7 +29,7 @@ const Header = () => {
                 <a href='/FERR/'>Pricing</a>
               </li>
               <li>
-                <a href='/FERR/trendingCRUD'>TrendingCRUD</a>
+                <a href='/trendingCRUD'>TrendingCRUD</a>
               </li>
             </ul>
             <button className='toggle' onClick={() => setMobile(!Mobile)}>
