@@ -47,7 +47,7 @@ const HomeCard = (props) => {
           </div>
         </div>
         <div className="homeCard-palyButton row">
-          <Link to={`/singlepage/${id}`}>
+          <Link to={`/FERR/singlepage/${id}`}>
             <button>
               <div className="homeCard-img">
                 <img src="./images/play-button.png" alt="Play Button" />
