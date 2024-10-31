@@ -14,19 +14,19 @@ const Header = () => {
             {/*<ul className='flexSB'>*/}
             <ul className={Mobile ? "navMenu-list" : "flexSB"} onClick={() => setMobile(false)}>
               <li>
-                <a href='/'>Home</a>
+                <a href='/FERR/'>Home</a>
               </li>
               <li>
-                <a href='/'>Series</a>
+                <a href='/FERR/'>Series</a>
               </li>
               <li>
-                <a href='/'>Movies</a>
+                <a href='/FERR/'>Movies</a>
               </li>
               <li>
-                <a href='/'>Pages</a>
+                <a href='/FERR/'>Pages</a>
               </li>
               <li>
-                <a href='/'>Pricing</a>
+                <a href='/FERR/'>Pricing</a>
               </li>
               <li>
                 <a href='/FERR/trendingCRUD'>TrendingCRUD</a>
