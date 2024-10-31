@@ -1,0 +1,64 @@
+body {
+  background-color: #141414;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.trailer-container {
+  max-width: 1200px; /* Set a max width for the container */
+  margin: auto; /* Center the container */
+  padding: 20px; /* Add some padding */
+}
+
+.trailer-card {
+  background-color: #1e272d; /* Card background */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px; /* Inner spacing */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+}
+
+.trailer-card h1 {
+  font-size: 2rem; /* Title size */
+  margin: 0; /* Remove default margin */
+}
+
+.trailer-card h2 {
+  font-size: 1.2rem; /* Subtitle size */
+  color: #ccc; /* Subtitle color */
+}
+
+.trailer-video {
+  width: 100%; /* Full width for video */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for the video */
+  margin: 20px 0; /* Space above and below the video */
+}
+
+.trailer-description {
+  line-height: 1.6; /* Improve readability */
+}
+
+.share-buttons {
+  margin: 20px 0; /* Space around buttons */
+}
+
+.share-buttons button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none; /* No border */
+  padding: 10px 15px; /* Padding for buttons */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  margin-right: 10px; /* Space between buttons */
+}
+
+.share-buttons button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.recommended-title {
+  margin-top: 40px; /* Space above the recommended movies title */
+  text-align: center; /* Center the title */
+  color: #fff; /* Ensure the title contrasts with the background */
+}

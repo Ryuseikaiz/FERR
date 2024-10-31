@@ -1,0 +1,121 @@
+.latest-movies {
+  padding: 20px 0;
+}
+
+.latest-movies .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.latest-movies .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.latest-movies .heading h1 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.latest-movies .heading a {
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.latest-movies .content{
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.latest-movies .movie-card img {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.latest-movies .movie-card {
+  position: relative;
+  color: white;
+}
+
+.latest-movies .movie-card .movie-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.latest-movies .movie-card h3 {
+  margin: 10px 0;
+}
+
+.latest-movies .movie-card p {
+  margin-bottom: 10px;
+}
+
+.latest-movies .play-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.latest-movies .control-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.latest-movies .control-btn .next, .control-btn .prev {
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.latest-movies .movie-info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), transparent); /* Gradient from black to transparent */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 50px; 
+  /* Align text slightly from the left */
+  text-align: left;
+}
+
+.latest-movies .movie-info h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.latest-movies .movie-info p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.latest-movies .play-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.play-icon {
+  margin-right: 10px;
+}

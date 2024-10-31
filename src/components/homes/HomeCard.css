@@ -1,0 +1,156 @@
+/* HomeCard.css */
+
+/* Container chính của HomeCard */
+.homeCard-box {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Ảnh bìa */
+.homeCard-coverImage {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -2;
+}
+
+.homeCard-coverImage img {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Phần nội dung chi tiết */
+.homeCard-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    /* align-items: flex-start; */
+    /* Đưa tất cả nội dung về bên trái */
+    text-align: left;
+
+}
+
+.homeCard-details {
+    width: 100%;
+    max-width: 700px;
+    margin-left: 0;
+    align-items: flex-start;
+}
+
+.homeCard-details h1 {
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+}
+
+.homeCard-details p,
+.homeCard-details h4 {
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* Xếp hạng */
+.homeCard-rating {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Đưa các mục trong rating về bên trái */
+    margin: 20px 0;
+}
+
+.homeCard-rating i {
+    color: #e50813;
+    margin-right: 5px;
+}
+
+.homeCard-rating label {
+    margin: 0 20px;
+}
+
+.homeCard-rating span {
+    background-color: #6c757d;
+    padding: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Phần cast */
+.homeCard-cast h4 {
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 17px;
+    display: block;
+    text-align: left;
+}
+
+.homeCard-cast h4 span {
+    color: #e50813;
+}
+
+/* Nút chính */
+.homeCard-primary-btn {
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color: #e50813;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.homeCard-primary-btn:hover {
+    background-color: #b5070e;
+}
+
+/* Nút xem trailer */
+.homeCard-palyButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.homeCard-palyButton a{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.homeCard-palyButton .homeCard-img {
+    position: relative;
+}
+
+.homeCard-palyButton img {
+    width: 90px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+.homeCard-change {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.homeCard-palyButton button:hover .homeCard-change {
+    opacity: 1;
+}
+
+.homeCard-palyButton button {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
